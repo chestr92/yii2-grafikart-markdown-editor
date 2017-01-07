@@ -1,6 +1,6 @@
 <?php
 
-namespace Hector68\GrafikartMarkdownEditor;
+namespace chestr92\GrafikartMarkdownEditor;
 
 use yii\base\Module as BaseModule;
 

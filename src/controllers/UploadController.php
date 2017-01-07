@@ -1,7 +1,7 @@
 <?php
-namespace Hector68\GrafikartMarkdownEditor\controllers;
+namespace chestr92\GrafikartMarkdownEditor\controllers;
 
-use Hector68\GrafikartMarkdownEditor\Module;
+use chestr92\GrafikartMarkdownEditor\Module;
 use yii\base\DynamicModel;
 use yii\helpers\FileHelper;
 use yii\helpers\Html;

@@ -7,13 +7,13 @@ About Markdown:
 ## Installation
 
 ```
-php composer.phar require --prefer-dist hector68/yii2-grafikart-markdown-editor
+php composer.phar require --prefer-dist chestr92/yii2-grafikart-markdown-editor
 ```
 
 or add
 
 ```
-"hector68/yii2-grafikart-markdown-editor" : "^0.1"
+"chestr92/yii2-grafikart-markdown-editor" : "^0.1"
 ```
 o the require section of your composer.json file.
 
@@ -23,7 +23,7 @@ if need upload images on server when include module to your config
 ```php
     'modules' => [
         'markdown-editor' => [
-            'class' => 'Hector68\GrafikartMarkdownEditor\Module',
+            'class' => 'chestr92\GrafikartMarkdownEditor\Module',
             'uploadDir' => '@webroot/images/markdown',
             'isFileNameUnique' => true, //set unique name or use base name,
             'maxSize' => 2097152, // in bites, Default 2mb
@@ -35,7 +35,7 @@ if need upload images on server when include module to your config
 
 ## Form
 ```php
-  <?= $form->field($model, 'firstMessage')->widget(Hector68\GrafikartMarkdownEditor\widgets\MdEditor::className(), [
+  <?= $form->field($model, 'firstMessage')->widget(chestr92\GrafikartMarkdownEditor\widgets\MdEditor::className(), [
             'uploader' => Url::to(['markdown-editor/upload/data']), //or false. Default false
             'preview' => true, // default false,
             'jsOptions' => [], // js options of widget. See https://github.com/Grafikart/JS-Markdown-Editor,

@@ -345,7 +345,7 @@ MdEditor = (function() {
             e.stopPropagation();
             if (window.confirm(options.labelConfirm)) {
               return $.ajax({
-                url: options.uploader + '?file=' + file.url,
+                url: options.uploader + '/' + file.id,
                 method: 'DELETE'
               }).done(function(data) {
                 return $(file.previewElement).fadeOut(500, function() {

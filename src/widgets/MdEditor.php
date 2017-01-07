@@ -1,7 +1,7 @@
 <?php
-namespace Hector68\GrafikartMarkdownEditor\widgets;
+namespace chestr92\GrafikartMarkdownEditor\widgets;
 
-use Hector68\GrafikartMarkdownEditor\assets\JSMarkdownEditorAsset;
+use chestr92\GrafikartMarkdownEditor\assets\JSMarkdownEditorAsset;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\helpers\Json;

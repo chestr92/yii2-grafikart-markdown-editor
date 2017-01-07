@@ -1,5 +1,5 @@
 {
-    "name": "hector68/yii2-grafikart-markdown-editor",
+    "name": "chestr92/yii2-grafikart-markdown-editor",
     "description": "Markdown editor with opportunity to uploading images",
     "keywords": ["yii", "yii2", "extension", "markdown", "editor", "input", "form", "jquery"],
     "type": "yii2-extension",
@@ -14,13 +14,13 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Dmitriy Ronzhin",
-            "email": "hector.tmb@gmail.com"
+            "name": "Yanis Mukhametshin",
+            "email": "chestr.nix.uz@gmail.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Hector68\\GrafikartMarkdownEditor\\": "src/"
+            "chestr92\\GrafikartMarkdownEditor\\": "src/"
         }
     },
     "minimum-stability": "dev"

@@ -1,6 +1,6 @@
 <?php
 
-namespace Hector68\GrafikartMarkdownEditor\assets;
+namespace chestr92\GrafikartMarkdownEditor\assets;
 
 use yii\web\AssetBundle;
 use yii\web\JqueryAsset;
